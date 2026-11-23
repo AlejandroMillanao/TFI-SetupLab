@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Ilustración provisional de asesoramiento personalizado y atención al cliente">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2440"/><stop offset="1" stop-color="#061529"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="20" fill="url(#bg)"/>
+  <g fill="none" stroke="#00D4FF" stroke-opacity=".09">
+    <path d="M0 100h900M0 200h900M0 300h900M0 400h900M0 500h900"/>
+    <path d="M100 0v600M200 0v600M300 0v600M400 0v600M500 0v600M600 0v600M700 0v600M800 0v600"/>
+  </g>
+  <circle cx="450" cy="300" r="235" fill="#00D4FF" opacity=".05"/>
+
+  <!-- Burbuja de conversacion -->
+  <g transform="translate(120 110)">
+    <path d="M40 0h420a40 40 0 0 1 40 40v200a40 40 0 0 1-40 40H210l-90 70v-70H40a40 40 0 0 1-40-40V40A40 40 0 0 1 40 0Z" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+    <g stroke="#7EE9FF" stroke-width="8" stroke-linecap="round" opacity=".8">
+      <path d="M50 80h250M50 135h330M50 190h200"/>
+    </g>
+    <circle cx="400" cy="80" r="14" fill="#00D4FF"/>
+    <circle cx="430" cy="135" r="10" fill="#7EE9FF" opacity=".7"/>
+  </g>
+
+  <!-- PC y check -->
+  <g transform="translate(500 330)">
+    <rect x="0" y="0" width="250" height="170" rx="14" fill="#0B2440" stroke="#00D4FF" stroke-width="5"/>
+    <rect x="24" y="24" width="202" height="104" rx="6" fill="#061529" stroke="#7EE9FF" stroke-opacity=".6" stroke-width="3"/>
+    <path d="M70 100l34-36 28 26 46-52" fill="none" stroke="#00D4FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M85 140h80" stroke="#00D4FF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M125 170v26M90 196h70" stroke="#00D4FF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(150 420)">
+    <circle cx="80" cy="80" r="72" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+    <path d="M45 82l24 24 48-52" fill="none" stroke="#7EE9FF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Ilustración provisional de un espacio de trabajo de SetupLab con una PC en armado">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2440"/>
+      <stop offset="1" stop-color="#061529"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123A63"/>
+      <stop offset="1" stop-color="#071A30"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="20" fill="url(#bg)"/>
+  <g fill="none" stroke="#00D4FF" stroke-opacity=".09">
+    <path d="M0 100h900M0 200h900M0 300h900M0 400h900M0 500h900"/>
+    <path d="M100 0v600M200 0v600M300 0v600M400 0v600M500 0v600M600 0v600M700 0v600M800 0v600"/>
+  </g>
+  <circle cx="450" cy="270" r="235" fill="#00D4FF" opacity=".05"/>
+
+  <!-- Monitor -->
+  <g transform="translate(190 95)">
+    <rect x="0" y="0" width="520" height="330" rx="16" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+    <rect x="24" y="24" width="472" height="264" rx="8" fill="url(#screen)" stroke="#7EE9FF" stroke-opacity=".6" stroke-width="3"/>
+    <g fill="none" stroke="#00D4FF" stroke-width="4" stroke-linecap="round">
+      <path d="M70 90h120M70 130h190M70 170h120M70 210h230"/>
+      <path d="M330 90h120M310 130h140M330 170h120M310 210h140"/>
+    </g>
+    <g fill="#7EE9FF" opacity=".75">
+      <circle cx="70" cy="90" r="7"/><circle cx="190" cy="130" r="7"/><circle cx="190" cy="210" r="7"/>
+      <circle cx="450" cy="90" r="7"/><circle cx="450" cy="170" r="7"/><circle cx="450" cy="210" r="7"/>
+    </g>
+    <rect x="220" y="312" width="80" height="18" rx="6" fill="#123A63" stroke="#00D4FF" stroke-width="2"/>
+    <path d="M260 330v34M200 364h120" stroke="#00D4FF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Motherboard / components on desk -->
+  <g transform="translate(300 430)">
+    <rect x="0" y="0" width="300" height="92" rx="10" fill="#0B2440" stroke="#00D4FF" stroke-width="4"/>
+    <g fill="#123A63" stroke="#7EE9FF" stroke-opacity=".5">
+      <rect x="22" y="18" width="74" height="56" rx="5"/><rect x="112" y="18" width="74" height="56" rx="5"/>
+      <rect x="202" y="18" width="74" height="56" rx="5"/>
+    </g>
+    <g stroke="#00D4FF" stroke-width="5" stroke-linecap="round">
+      <path d="M48 92v22M148 92v22M248 92v22"/>
+    </g>
+  </g>
+
+  <!-- Tools -->
+  <g transform="translate(110 430)" fill="none" stroke="#7EE9FF" stroke-width="6" stroke-linecap="round">
+    <path d="M0 0l46 46M46 0L0 46"/>
+    <circle cx="23" cy="23" r="30" stroke-opacity=".35"/>
+  </g>
+  <g transform="translate(720 430)" fill="none" stroke="#00D4FF" stroke-width="6" stroke-linecap="round">
+    <path d="M0 20h60M30 0v40"/>
+    <circle cx="30" cy="20" r="30" stroke-opacity=".35"/>
+  </g>
+</svg>

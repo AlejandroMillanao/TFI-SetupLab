@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+
+<head>
+    <title>Trabajos | SetupLab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Galería de trabajos y clientes de SetupLab: armados de PC, mantenimiento, actualizaciones y asesoramiento en Viedma y Carmen de Patagones.">
+
+    <link rel="icon" type="image/png" href="assets/img/logo-setuplab.png">
+    <link rel="apple-touch-icon" href="assets/img/logo-setuplab.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Space+Grotesk:wght@500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<!--
+    SetupLab · Trabajo Final Integrador · Viedma Digital
+-->
+
+    <!-- CSS Grid exclusivo para la galería de trabajos -->
+    <style>
+        .sl-work-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 1.5rem;
+        }
+        .sl-work-grid .sl-dark-card { display: flex; flex-direction: column; overflow: hidden; }
+        .sl-work-img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            object-fit: cover;
+            object-position: center;
+            border-bottom: 1px solid var(--sl-line-dark);
+            background: var(--sl-black);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand align-self-center sl-brand" href="index.html" aria-label="SetupLab - Inicio">
+                <img src="assets/img/logo-setuplab.png" class="navbar-logo" alt="SetupLab">
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="templatemo_main_nav" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="trabajos.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Start Hero de trabajos -->
+    <section class="sl-dark-section reveal" id="hero-trabajos">
+        <div class="container py-5">
+            <div class="row align-items-center gy-4 py-lg-4">
+                <div class="col-lg-9 reveal">
+                    <span class="eyebrow">Trabajos y clientes</span>
+                    <h1 class="h1">Cada equipo cuenta una historia</h1>
+                    <hr class="section-accent">
+                    <p class="lead">
+                        Una muestra de los tipos de proyectos que SetupLab realiza en Viedma y
+                        Carmen de Patagones. Las imágenes son fotografías de ejemplo y los
+                        nombres de clientes se publicarán cuando cuenten con autorización.
+                    </p>
+                    <a href="contacto.html" class="btn btn-setuplab">Contanos tu proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero de trabajos -->
+
+    <!-- Start Galería de trabajos (CSS Grid) -->
+    <section class="sl-panel-section reveal" id="galeria-trabajos">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-8 m-auto">
+                    <span class="eyebrow">Galería</span>
+                    <h1 class="h1">Proyectos destacados</h1>
+                    <p>
+                        Estos seis ejemplos representan trabajos habituales del proyecto. No
+                        incluyen datos personales ni identificaciones de clientes reales.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sl-work-grid">
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-armado-pc.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de una PC gaming armada">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Armado de PC</span>
+                        <h2 class="h5 mt-2">PC gaming para jugar en alta calidad</h2>
+                        <p class="mb-4">
+                            Selección de componentes, armado y pruebas de funcionamiento para un
+                            equipo destinado a juegos exigentes.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Consultar algo similar</a>
+                    </div>
+                </article>
+
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-actualizacion.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de componentes para actualizar una PC">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Actualización</span>
+                        <h2 class="h5 mt-2">Equipo actualizado para ganar rendimiento</h2>
+                        <p class="mb-4">
+                            Cambio de componentes compatibles para mejorar el rendimiento sin
+                            reemplazar todo el equipo.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Pedir asesoramiento</a>
+                    </div>
+                </article>
+
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-asesoramiento.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de una sesión de asesoramiento técnico">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Asesoramiento</span>
+                        <h2 class="h5 mt-2">Elección de componentes paso a paso</h2>
+                        <p class="mb-4">
+                            Orientación personalizada para comparar opciones, entender
+                            compatibilidades y definir un presupuesto.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Hacer una consulta</a>
+                    </div>
+                </article>
+
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-perifericos.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de un set de periféricos gaming">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Periféricos</span>
+                        <h2 class="h5 mt-2">Set de periféricos para un puesto completo</h2>
+                        <p class="mb-4">
+                            Recomendación de mouse, teclado y auriculares según el uso y la
+                            preferencia de cada persona.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Ver opciones</a>
+                    </div>
+                </article>
+
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-mantenimiento.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de un equipo en mantenimiento y revisión">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Mantenimiento</span>
+                        <h2 class="h5 mt-2">Limpieza y revisión de un equipo en uso</h2>
+                        <p class="mb-4">
+                            Limpieza interna, revisión de temperaturas y ajustes para recuperar
+                            rendimiento y estabilidad.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Solicitar revisión</a>
+                    </div>
+                </article>
+
+                <article class="sl-dark-card reveal">
+                    <img src="assets/img/trabajo-componentes.png"
+                         class="sl-work-img"
+                         alt="Fotografía de ejemplo de componentes y placa gráfica para un setup gaming">
+                    <div class="p-4 d-flex flex-column flex-grow-1">
+                        <span class="eyebrow">Componentes</span>
+                        <h2 class="h5 mt-2">Mejora gráfica para un setup gaming</h2>
+                        <p class="mb-4">
+                            Evaluación de compatibilidad e instalación de una placa gráfica
+                            acorde al resto del equipo.
+                        </p>
+                        <a href="contacto.html" class="btn btn-setuplab mt-auto">Consultar disponibilidad</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- End Galería de trabajos -->
+
+    <!-- Start CTA final -->
+    <section class="sl-dark-section reveal" id="cta-trabajos">
+        <div class="container py-5 text-center">
+            <div class="row">
+                <div class="col-lg-8 m-auto reveal">
+                    <span class="eyebrow">Tu proyecto</span>
+                    <h1 class="h1">¿Querés sumarte a la galería?</h1>
+                    <p class="mb-4">
+                        Contanos qué equipo tenés y qué querés lograr. Juntos definimos la
+                        mejor forma de armado, actualización o mantenimiento.
+                    </p>
+                    <a href="contacto.html" class="btn btn-setuplab">Escribinos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End CTA final -->
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <a href="index.html" class="sl-footer-brand" aria-label="SetupLab - Inicio">
+                        <img src="assets/img/logo-setuplab.png" class="footer-logo" alt="SetupLab">
+                    </a>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Viedma, Río Negro
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="https://wa.me/5492920251242" target="_blank" rel="noopener noreferrer">+54 9 2920 251242</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:alejosemillanao2004@gmail.com">alejosemillanao2004@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Servicios</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="servicios.html">Armado personalizado de PC</a></li>
+                        <li><a class="text-decoration-none" href="servicios.html">Mantenimiento y reparación</a></li>
+                        <li><a class="text-decoration-none" href="servicios.html">Actualización y asesoramiento</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Navegación</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="equipo.html">Equipo</a></li>
+                        <li><a class="text-decoration-none" href="servicios.html">Servicios</a></li>
+                        <li><a class="text-decoration-none" href="trabajos.html">Trabajos</a></li>
+                        <li><a class="text-decoration-none" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Correo electrónico</label>
+                    <div class="input-group mb-2">
+                        <input type="email" class="form-control" id="subscribeEmail" placeholder="Tu correo electrónico">
+                        <div class="input-group-text btn-success text-light">Suscribirme</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            &copy; 2026 SetupLab · Trabajo Final Integrador · Viedma Digital
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>

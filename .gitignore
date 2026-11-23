@@ -1,0 +1,32 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores y herramientas
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporales, respaldos y logs
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.log
+__tmp*
+~$*
+
+# Dependencias o salidas de compilación (este proyecto no las usa)
+node_modules/
+dist/
+build/
+
+# Información sensible (no debe subirse al repositorio)
+.env
+.env.*
+*.key
+*.pem
+credentials.json

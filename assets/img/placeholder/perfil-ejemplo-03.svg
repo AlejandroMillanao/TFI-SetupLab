@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Retrato ilustrativo provisional de integrante de ejemplo 03">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2440"/><stop offset="1" stop-color="#06172B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <g fill="none" stroke="#00D4FF" stroke-opacity=".09">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800"/>
+    <path d="M100 0v600M200 0v600M300 0v600M400 0v600M500 0v600M600 0v600M700 0v600"/>
+  </g>
+  <circle cx="400" cy="260" r="205" fill="#00D4FF" opacity=".05"/>
+  <rect x="28" y="28" width="190" height="46" rx="8" fill="#0A1C33" stroke="#00D4FF" stroke-opacity=".5"/>
+  <text x="48" y="59" fill="#7EE9FF" font-family="Arial,sans-serif" font-size="22" letter-spacing="2">EJEMPLO</text>
+  <!-- bust -->
+  <circle cx="400" cy="225" r="92" fill="#123A63" stroke="#00D4FF" stroke-width="4"/>
+  <path d="M210 600c0-118 85-205 190-205s190 87 190 205Z" fill="#0B2440" stroke="#00D4FF" stroke-width="5"/>
+  <path d="M300 470c30-32 63-48 100-48s70 16 100 48" fill="none" stroke="#7EE9FF" stroke-opacity=".55" stroke-width="5"/>
+  <g fill="#00D4FF" opacity=".55">
+    <path d="M140 220h80v46h-80z"/><path d="M580 140h80v46h-80z"/>
+  </g>
+  <g fill="none" stroke="#7EE9FF" stroke-opacity=".4" stroke-width="3">
+    <path d="M220 243h55M580 163h55"/>
+  </g>
+</svg>

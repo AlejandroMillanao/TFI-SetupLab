@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Ilustración provisional de periféricos gaming">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#123A63"/>
+      <stop offset="1" stop-color="#061529"/>
+    </radialGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B4F86"/>
+      <stop offset="1" stop-color="#0B2440"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#00D4FF" stroke-opacity=".10">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800M0 600h800M0 700h800"/>
+    <path d="M100 0v800M200 0v800M300 0v800M400 0v800M500 0v800M600 0v800M700 0v800"/>
+  </g>
+  <circle cx="400" cy="380" r="270" fill="#00D4FF" opacity=".05"/>
+  <g transform="translate(120 170)">
+    <rect x="0" y="0" width="560" height="190" rx="22" fill="#0A1C33" stroke="#00D4FF" stroke-width="4"/>
+    <g fill="url(#key)" stroke="#7EE9FF" stroke-opacity=".35">
+      <rect x="28" y="28" width="54" height="42" rx="7"/><rect x="94" y="28" width="54" height="42" rx="7"/>
+      <rect x="160" y="28" width="54" height="42" rx="7"/><rect x="226" y="28" width="54" height="42" rx="7"/>
+      <rect x="292" y="28" width="54" height="42" rx="7"/><rect x="358" y="28" width="54" height="42" rx="7"/>
+      <rect x="424" y="28" width="54" height="42" rx="7"/><rect x="490" y="28" width="42" height="42" rx="7"/>
+      <rect x="28" y="84" width="70" height="42" rx="7"/><rect x="110" y="84" width="54" height="42" rx="7"/>
+      <rect x="176" y="84" width="54" height="42" rx="7"/><rect x="242" y="84" width="54" height="42" rx="7"/>
+      <rect x="308" y="84" width="54" height="42" rx="7"/><rect x="374" y="84" width="54" height="42" rx="7"/>
+      <rect x="440" y="84" width="92" height="42" rx="7"/>
+      <rect x="28" y="140" width="106" height="30" rx="7"/><rect x="146" y="140" width="218" height="30" rx="7"/>
+      <rect x="376" y="140" width="106" height="30" rx="7"/><rect x="494" y="140" width="38" height="30" rx="7"/>
+    </g>
+  </g>
+  <g transform="translate(268 410)">
+    <path d="M132 0C58 0 0 50 0 116v136c0 70 56 126 132 126s132-56 132-126V116C264 50 206 0 132 0Z" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+    <path d="M132 14v90" stroke="#00D4FF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M132 104h66" stroke="#7EE9FF" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="132" cy="104" r="10" fill="#00D4FF"/>
+  </g>
+  <g transform="translate(96 420)" fill="none" stroke="#7EE9FF" stroke-width="8">
+    <path d="M0 118v-22a92 92 0 0 1 184 0v22"/>
+    <rect x="-12" y="110" width="44" height="92" rx="18" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+    <rect x="152" y="110" width="44" height="92" rx="18" fill="#0A1C33" stroke="#00D4FF" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,224 @@
+/*
+
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+---------------------------------------------
+Table of contents
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Hero Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+
+
+
+/* Typography */
+body {
+  font-family: var(--sl-font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--sl-text);
+  background-color: var(--sl-white);
+}
+.h1 {
+  font-family: var(--sl-font-head);
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.h2 {
+  font-family: var(--sl-font-head);
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.h3 {
+  font-family: var(--sl-font-head);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+/* General */
+.logo { font-weight: 600 !important; letter-spacing: -0.01em;}
+.text-warning { color: var(--sl-accent-ink) !important;}
+.text-muted { color: var(--sl-text-muted) !important;}
+.text-success { color: var(--sl-accent-ink) !important;}
+.text-light { color: var(--sl-text-inverse) !important;}
+.bg-dark { background-color: var(--sl-primary) !important;}
+.bg-light { background-color: var(--sl-surface) !important;}
+.bg-black { background-color: var(--sl-bg-deep) !important;}
+.bg-success { background-color: var(--sl-primary) !important;}
+.btn-success {
+  background-color: var(--sl-primary) !important;
+  border-color: var(--sl-primary) !important;
+  color: var(--sl-white) !important;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: var(--sl-primary-2) !important;
+  border-color: var(--sl-primary-2) !important;
+  color: var(--sl-white) !important;
+}
+.pagination .page-link:hover { color: var(--sl-accent-ink);}
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: var(--sl-primary) !important;
+  border-color: var(--sl-primary) !important;
+  color: var(--sl-accent) !important;
+}
+/* Nav */
+#templatemo_nav_top { min-height: 40px; background-color: var(--sl-bg-deep) !important;}
+#templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_main_nav a { color: var(--sl-text);}
+#templatemo_main_nav a:hover { color: var(--sl-accent-ink);}
+#templatemo_main_nav .nav-link { transition: color .25s ease;}
+#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel {
+  background: linear-gradient(135deg, var(--sl-primary) 0%, var(--sl-bg-deep) 100%) !important;
+}
+#template-mo-zay-hero-carousel .carousel-item h1,
+#template-mo-zay-hero-carousel .carousel-item h2,
+#template-mo-zay-hero-carousel .carousel-item h3,
+#template-mo-zay-hero-carousel .carousel-item p { color: var(--sl-text-inverse);}
+#template-mo-zay-hero-carousel .carousel-item .text-success { color: var(--sl-accent) !important;}
+/* Accordion */
+.templatemo-accordion a { color: var(--sl-text);}
+.templatemo-accordion a:hover { color: var(--sl-accent-ink);}
+/* Shop */
+.shop-top-menu a:hover { color: var(--sl-accent-ink) !important;}
+/* Product */
+.product-wap { box-shadow: 0 6px 18px 0 var(--sl-shadow);}
+.product-wap .product-color-dot.color-dot-red { background:#f71515;}
+.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+.product-wap .product-color-dot.color-dot-black { background:#000000;}
+.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+.product-wap .product-color-dot.color-dot-green { background:#0bff7e;}
+.card.product-wap .card .product-overlay {
+  background: rgba(6,21,41,.35);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s ease, visibility .3s ease;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: var(--sl-text);}
+#carousel-related-product .slick-slide:focus { outline: none !important;}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: filter .5s ease, opacity .5s ease;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: var(--sl-accent);
+  border: 1px solid rgba(255,255,255,.35);
+  transition: opacity .25s ease, transform .25s ease;
+}
+#template-mo-zay-hero-carousel .carousel-indicators .active {
+  background-color: var(--sl-white);
+  transform: scale(1.15);
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: var(--sl-accent) !important;
+  font-size: 2.2em !important;
+  transition: transform .25s ease, color .25s ease;
+}
+#template-mo-zay-hero-carousel .carousel-control-prev:hover i { transform: translateX(-3px);}
+#template-mo-zay-hero-carousel .carousel-control-next:hover i { transform: translateX(3px);}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: var(--sl-text) !important;
+}
+/* Services */
+.services-icon-wap { transition: color .3s ease, background-color .3s ease, border-color .3s ease;}
+.services-icon-wap:hover { color: var(--sl-white); background: var(--sl-primary); border-color: var(--sl-glow);}
+.services-icon-wap:hover i { color: var(--sl-accent);}
+.form-control { border: 1px solid var(--sl-border); color: var(--sl-text);}
+.form-control::placeholder { color: var(--sl-text-muted); opacity: 1;}
+/* Footer */
+#tempaltemo_footer a { color: var(--sl-text-inverse);}
+#tempaltemo_footer a:hover { color: var(--sl-accent);}
+#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+  transition: background-color .3s ease;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: var(--sl-accent);
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: var(--sl-bg-deep);
+}
+#tempaltemo_footer .border-light { border-color: var(--sl-border-dark) !important;}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: .8rem !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width: 550px;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 1rem !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

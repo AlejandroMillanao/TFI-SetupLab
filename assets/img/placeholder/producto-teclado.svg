@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ilustración provisional de teclado gaming">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2440"/><stop offset="1" stop-color="#061529"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B4F86"/><stop offset="1" stop-color="#0B2440"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <g fill="none" stroke="#00D4FF" stroke-opacity=".09">
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800"/>
+    <path d="M100 0v600M200 0v600M300 0v600M400 0v600M500 0v600M600 0v600M700 0v600"/>
+  </g>
+  <circle cx="400" cy="300" r="230" fill="#00D4FF" opacity=".05"/>
+  <g transform="translate(70 190)">
+    <rect x="0" y="0" width="660" height="220" rx="20" fill="#0A1C33" stroke="#00D4FF" stroke-width="6"/>
+    <g fill="url(#key)" stroke="#7EE9FF" stroke-opacity=".4">
+      <rect x="30" y="30" width="56" height="46" rx="7"/><rect x="100" y="30" width="56" height="46" rx="7"/><rect x="170" y="30" width="56" height="46" rx="7"/><rect x="240" y="30" width="56" height="46" rx="7"/><rect x="310" y="30" width="56" height="46" rx="7"/><rect x="380" y="30" width="56" height="46" rx="7"/><rect x="450" y="30" width="56" height="46" rx="7"/><rect x="520" y="30" width="110" height="46" rx="7"/>
+      <rect x="30" y="92" width="78" height="46" rx="7"/><rect x="122" y="92" width="56" height="46" rx="7"/><rect x="192" y="92" width="56" height="46" rx="7"/><rect x="262" y="92" width="56" height="46" rx="7"/><rect x="332" y="92" width="56" height="46" rx="7"/><rect x="402" y="92" width="56" height="46" rx="7"/><rect x="472" y="92" width="158" height="46" rx="7"/>
+      <rect x="30" y="154" width="116" height="46" rx="7"/><rect x="160" y="154" width="290" height="46" rx="7"/><rect x="464" y="154" width="166" height="46" rx="7"/>
+    </g>
+  </g>
+</svg>
