@@ -50,6 +50,24 @@
     }
   });
 
+  // Mantiene aria-current sincronizado con el indicador activo del carrusel.
+  // Bootstrap 5.0.0-beta1 solo cambia la clase .active.
+  const heroCarousel = document.getElementById('template-mo-zay-hero-carousel');
+  if (heroCarousel) {
+    const indicators = [...heroCarousel.querySelectorAll('.carousel-indicators [data-bs-slide-to]')];
+    const syncCarouselIndicators = () => {
+      indicators.forEach((indicator) => {
+        if (indicator.classList.contains('active')) {
+          indicator.setAttribute('aria-current', 'true');
+        } else {
+          indicator.removeAttribute('aria-current');
+        }
+      });
+    };
+    heroCarousel.addEventListener('slid.bs.carousel', syncCarouselIndicators);
+    syncCarouselIndicators();
+  }
+
   // Respuesta visual minima al presionar botones
   document.querySelectorAll('.btn').forEach((button) => {
     button.addEventListener('pointerdown', () => button.classList.add('is-pressed'));
