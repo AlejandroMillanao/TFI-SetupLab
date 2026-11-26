@@ -511,6 +511,8 @@ section.bg-light,
   aspect-ratio: 4 / 3;
   border-bottom: 1px solid var(--sl-line-dark);
 }
+/* Foco uniforme en los productos destacados de Inicio, sin afectar otras páginas. */
+#destacados .card-img-top { object-position: center 45%; }
 
 /* Imágenes definitivas de las categorías de Inicio.
    El recuadro 3:2 se acerca al formato original (16:9) y, junto con
@@ -571,6 +573,34 @@ section.bg-light,
 }
 @media (max-width: 767.98px) {
   .sl-servicio-card { min-height: 0; }
+}
+
+/* Tarjetas de «Sobre SetupLab» en Inicio: reutilizan el degradado y el hover
+   de .sl-servicio-card y sólo ajustan altura, encuadre y acento azul. */
+.sl-sobre-card {
+  min-height: 260px;
+  justify-content: flex-end;
+  background-position: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+}
+.sl-sobre-card h2 {
+  padding-left: .7rem;
+  border-left: 3px solid var(--sl-electric);
+}
+.sl-sobre-componentes {
+  background-image: url("../img/perifericos y componentes.jpg");
+}
+.sl-sobre-armado {
+  background-image: url("../img/armado de pc.jpg");
+}
+.sl-sobre-actualizacion {
+  background-image: url("../img/actualizacion.jpg");
+}
+.sl-sobre-mantenimiento {
+  background-image: url("../img/mantenimiento de pc.jpg");
+}
+@media (max-width: 575.98px) {
+  .sl-sobre-card { min-height: 230px; }
 }
 
 .card-body,
