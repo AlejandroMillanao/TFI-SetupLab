@@ -518,6 +518,12 @@ section.bg-light,
 /* Foco uniforme en los productos destacados de Inicio, sin afectar otras páginas. */
 #destacados .card-img-top { object-position: center 45%; }
 
+/* Encuadres individuales de las fotos nuevas de la galería de trabajos.
+   El resto mantiene el centro por defecto definido en trabajos.html. */
+#galeria-trabajos .sl-work-grid > article:nth-child(1) .sl-work-img { object-position: center 35%; }
+#galeria-trabajos .sl-work-grid > article:nth-child(2) .sl-work-img { object-position: center 40%; }
+#galeria-trabajos .sl-work-grid > article:nth-child(5) .sl-work-img { object-position: center 45%; }
+
 /* Imágenes definitivas de las categorías de Inicio.
    El recuadro 3:2 se acerca al formato original (16:9) y, junto con
    object-fit, mantiene alturas parejas sin recortes importantes. */
