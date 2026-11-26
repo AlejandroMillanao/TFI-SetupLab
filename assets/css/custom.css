@@ -395,6 +395,10 @@ section.bg-light,
   position: relative;
   z-index: 1;
 }
+#sobre-setuplab > .container {
+  width: 100%;
+  margin-inline: auto;
+}
 
 /* Fotografías protagonistas de Equipo: cubren toda la sección y el texto va encima. */
 #quienes-somos,
@@ -575,13 +579,20 @@ section.bg-light,
   .sl-servicio-card { min-height: 0; }
 }
 
-/* Tarjetas de «Sobre SetupLab» en Inicio: reutilizan el degradado y el hover
-   de .sl-servicio-card y sólo ajustan altura, encuadre y acento azul. */
+/* Tarjetas de «Sobre SetupLab» en Inicio: reutilizan el hover de
+   .sl-servicio-card y ajustan degradado, altura, encuadre y acento azul. */
 .sl-sobre-card {
-  min-height: 260px;
+  min-height: 0;
+  padding-block: 1rem;
   justify-content: flex-end;
-  background-position: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, .6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .75);
+}
+/* Degradado propio para que la foto se vea y el texto siga siendo legible. */
+.sl-sobre-card::before {
+  background: linear-gradient(180deg,
+    rgba(4, 7, 12, .34) 0%,
+    rgba(4, 7, 12, .14) 40%,
+    rgba(4, 7, 12, .62) 100%);
 }
 .sl-sobre-card h2 {
   padding-left: .7rem;
@@ -589,18 +600,39 @@ section.bg-light,
 }
 .sl-sobre-componentes {
   background-image: url("../img/perifericos y componentes.jpg");
+  background-position: center 35%;
 }
 .sl-sobre-armado {
   background-image: url("../img/armado de pc.jpg");
+  background-position: center 65%;
+}
+/* Refuerzo localizado del degradado detrás del título; el resto de la foto
+   mantiene la opacidad original para no oscurecerla en exceso. */
+.sl-sobre-componentes::before {
+  background: linear-gradient(180deg,
+    rgba(4, 7, 12, .34) 0%,
+    rgba(4, 7, 12, .14) 28%,
+    rgba(4, 7, 12, .30) 36%,
+    rgba(4, 7, 12, .28) 52%,
+    rgba(4, 7, 12, .16) 60%,
+    rgba(4, 7, 12, .62) 100%);
+}
+.sl-sobre-armado::before {
+  background: linear-gradient(180deg,
+    rgba(4, 7, 12, .34) 0%,
+    rgba(4, 7, 12, .14) 18%,
+    rgba(4, 7, 12, .60) 38%,
+    rgba(4, 7, 12, .60) 60%,
+    rgba(4, 7, 12, .30) 70%,
+    rgba(4, 7, 12, .62) 100%);
 }
 .sl-sobre-actualizacion {
   background-image: url("../img/actualizacion.jpg");
+  background-position: center 60%;
 }
 .sl-sobre-mantenimiento {
   background-image: url("../img/mantenimiento de pc.jpg");
-}
-@media (max-width: 575.98px) {
-  .sl-sobre-card { min-height: 230px; }
+  background-position: center 65%;
 }
 
 .card-body,
